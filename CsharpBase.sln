@@ -46,6 +46,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicClass", "BasicClass", "{5E8FAB0D-FB0A-4727-B6BA-B4C6EDB55356}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OO", "OO", "{FDC31008-B367-47F6-B7FB-90014736AE36}"
+	ProjectSection(SolutionItems) = preProject
+		OONote.txt = OONote.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IO", "IO", "{782DDEAF-4DF2-49EE-98B3-3D46938334D4}"
 EndProject

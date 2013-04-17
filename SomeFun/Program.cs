@@ -9,7 +9,12 @@ namespace SomeFun
         static void Main(string[] args)
         {
             A ob = new C();
+            //输出:B.V()
             ob.Fun();
+
+            A ob2 = new B1();
+            //输出:B.V()
+            ob2.Fun();
         }
     }
     public class A
@@ -36,5 +41,13 @@ namespace SomeFun
         {
             Console.WriteLine("C .V()");
         }
+    }
+    public class B1 : A
+    {
+        public new void V()
+        {
+            Console.WriteLine("B1 .V()");
+        }
+ 
     }
 }
