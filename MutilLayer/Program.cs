@@ -84,6 +84,7 @@ namespace MutilLayer
          * 不加new将产生编译警告
          * 加new代码更加清晰，并且将消除编译警告
          */
+
         public new void Function()
         {
             Console.WriteLine("L2: Function()");

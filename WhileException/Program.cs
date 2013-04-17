@@ -9,7 +9,7 @@ namespace WhileException
         static void Main(string[] args)
         {
             Console.WriteLine("Enter While{---}");
-            bool breaking=false;
+           //// bool breaking=false;
             while (true)
             {
                 try
@@ -25,14 +25,14 @@ namespace WhileException
                 {
                     Console.WriteLine(" Exception  :" + e.Message);
                     break;
-                    //breaking = true;
+                    /////breaking = true;
                 }
-                //finally
-                //{
-                //    Console.WriteLine("break While in finally");
-                //这样写是错误的，将得到错误提示：控制不能离开finally主体
-                //    break;
-                //}
+                ////finally
+                ////{
+                ////    Console.WriteLine("break While in finally");
+                ////这样写是错误的，将得到错误提示：控制不能离开finally主体
+                ////    break;
+                ////}
             }//end while
             Console.WriteLine("End Mian()");
         }

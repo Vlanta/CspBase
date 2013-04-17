@@ -12,7 +12,7 @@ namespace WindowsTimeApplicatio
 {
     public partial class Form1 : Form
     {
-        private UserControl UserControl;
+      
         private int time=60;
         //private System.Threading.Timer ;
         //new System.Threading.Timer(CallBack,5,0,32 );

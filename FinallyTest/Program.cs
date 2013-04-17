@@ -34,9 +34,12 @@ namespace FinallyTest
         static int TestFinallyReturn()
         {
             int n = 10;
+        
             try
             {
+                return n;
                 throw new Exception("Exception Test");
+               
 
             }
             catch (Exception e)
