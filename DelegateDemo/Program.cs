@@ -8,6 +8,7 @@ namespace DelegateDemo
 {
     class Program
     {
+        //一个委托变量
         public Action<string> delegate1;
         static void Main(string[] args)
         {
